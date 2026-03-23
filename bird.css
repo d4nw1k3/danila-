@@ -1,0 +1,20 @@
+.style-card img {
+  border-radius: 10px;
+  width: 100%; /* Это гарантирует, что изображение будет растягиваться на всю ширину контейнера */
+  height: 350px; /* Увеличьте высоту изображения */
+  object-fit: cover; /* Это гарантирует, что изображение будет обрезано по краям, но сохранит свои пропорции */
+}
+
+.style-card {
+  margin-bottom: 30px;
+}
+
+.style-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.style-description {
+  font-size: 1rem;
+  color: #555;
+}

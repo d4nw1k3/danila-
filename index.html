@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DripMaxxing</title>
+  <link href="bird.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .small-image {
+      width: 200px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .button-container {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    #message {
+      margin-top: 15px;
+      font-weight: bold;
+      color: green;
+      text-align: center;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-white bg-white border-bottom shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">Drips</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="content.html">Content</a></li>
+          <li class="nav-item"><a class="nav-link" href="drips.html">Looks</a></li>
+        </ul>
+      </div>   
+    </div>
+  </nav>
+
+  <div class="container my-5 text-center">
+    <h1>Welcome to DripMaxxing website</h1>
+    <p>Here you can add your own style!</p>
+
+    <img src="https://preview.redd.it/question-what-is-the-spike-outfit-called-im-trying-to-cop-it-v0-s4idrupiniy81.jpg?width=640&crop=smart&auto=webp&s=0a7c71699bd64bbbfa3bda617c864527c1cd7f1f" class="small-image" alt="example">
+
+    <div class="button-container">
+      <input id="name" type="text" placeholder="Style name">
+      <input id="avg" type="text" placeholder="Avg">
+      <input id="imgg" type="file" accept="image/*">
+      <button id="xxx" class="btn btn-primary">Add</button>
+    </div>
+
+    <p id="message">✅ Your table has been created in content webpage.</p>
+  </div>
+
+  <script src="drip.js"></script>
+</body>
+</html>
